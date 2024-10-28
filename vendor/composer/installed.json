@@ -2,23 +2,23 @@
     "packages": [
         {
             "name": "paidcommunities/paidcommunities-php",
-            "version": "v1.0.0-beta10",
-            "version_normalized": "1.0.0.0-beta10",
+            "version": "v1.0.0-beta11",
+            "version_normalized": "1.0.0.0-beta11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paidcommunities/paidcommunities-php-sdk.git",
-                "reference": "86938b980aac4a9512b04d069a5a7fe62f2b4b9d"
+                "reference": "c404fff3940bf261b564b5b9b3d28735eb431125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paidcommunities/paidcommunities-php-sdk/zipball/86938b980aac4a9512b04d069a5a7fe62f2b4b9d",
-                "reference": "86938b980aac4a9512b04d069a5a7fe62f2b4b9d",
+                "url": "https://api.github.com/repos/paidcommunities/paidcommunities-php-sdk/zipball/c404fff3940bf261b564b5b9b3d28735eb431125",
+                "reference": "c404fff3940bf261b564b5b9b3d28735eb431125",
                 "shasum": ""
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
             },
-            "time": "2024-10-26T21:46:52+00:00",
+            "time": "2024-10-28T18:57:59+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -39,7 +39,7 @@
             "description": "PHP SDK for the PaidCommunities API",
             "support": {
                 "issues": "https://github.com/paidcommunities/paidcommunities-php-sdk/issues",
-                "source": "https://github.com/paidcommunities/paidcommunities-php-sdk/tree/v1.0.0-beta10"
+                "source": "https://github.com/paidcommunities/paidcommunities-php-sdk/tree/v1.0.0-beta11"
             },
             "install-path": "../paidcommunities/paidcommunities-php"
         }

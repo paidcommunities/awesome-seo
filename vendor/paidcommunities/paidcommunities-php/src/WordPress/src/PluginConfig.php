@@ -33,9 +33,9 @@ class PluginConfig {
 	private $templates;
 
 	/**
-	 * @param string $slug      The name of the plugin
-	 * @param string $version   The current version of the plugin
-	 * @param array  $overrides array of optional overrides to customize the default behavior.
+	 * @param string $slug The name of the plugin
+	 * @param string $version The current version of the plugin
+	 * @param array $overrides array of optional overrides to customize the default behavior.
 	 */
 	public function __construct( $plugin_file, $version, $overrides = [] ) {
 		$this->plugin_file = $plugin_file;
