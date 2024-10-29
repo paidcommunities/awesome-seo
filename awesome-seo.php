@@ -17,7 +17,10 @@ require __DIR__ . '/vendor/autoload.php';
 
 $config = new \PaidCommunities\WordPress\PluginConfig(
 	plugin_basename( __FILE__ ),
-	'1.0.0'
+	'1.0.0',
+	[
+		'template_path' => __DIR__ . '/templates'
+	]
 );
 
 $config->environment( 'sandbox' );
