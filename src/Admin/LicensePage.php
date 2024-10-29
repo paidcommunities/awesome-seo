@@ -39,7 +39,7 @@ class LicensePage {
             <div class="awesome-seo-title">
                 <h1><?php esc_html_e( 'License Management', 'awesome-seo' ) ?></h1>
                 <p>
-		            <?php esc_html_e( 'On this page you can activate or deactivate your Awesome SEO license.', 'awesome-seo' ) ?>
+					<?php esc_html_e( 'On this page you can activate or deactivate your Awesome SEO license.', 'awesome-seo' ) ?>
                 </p>
             </div>
             <div>
