@@ -16,14 +16,9 @@
 require __DIR__ . '/vendor/autoload.php';
 
 $config = new \PaidCommunities\WordPress\PluginConfig(
-	plugin_basename( __FILE__ ),
-	'1.0.0',
-	[
-		'template_path' => __DIR__ . '/templates'
-	]
+	__FILE__,
+	'prd_80y2N3N2L11O2ee1'
 );
-
-$config->environment( 'sandbox' );
 
 new \AwesomeSEO\Admin\AdminMenus(
 	new \AwesomeSEO\Admin\LicensePage( $config ),
