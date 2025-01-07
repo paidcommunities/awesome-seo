@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "paidcommunities/paidcommunities-php": "^1.0@beta"
+        "paidcommunities/wordpress-sdk": "^0.0.1-beta.1"
     },
     "autoload": {
         "psr-4": {

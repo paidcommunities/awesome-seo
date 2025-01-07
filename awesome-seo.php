@@ -20,6 +20,8 @@ $config = new \PaidCommunities\WordPress\PluginConfig(
 	'prd_80y2N3N2L11O2ee1'
 );
 
+$config->environment('sandbox');
+
 new \AwesomeSEO\Admin\AdminMenus(
 	new \AwesomeSEO\Admin\LicensePage( $config ),
 	new \AwesomeSEO\Admin\SettingsPage(),
