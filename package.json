@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean:build": "rm -rf ./build",
-    "build:prod": "npm run clean:build && NODE_ENV=production webpack --mode=production"
+    "build:prod": "npm run clean:build && NODE_ENV=production webpack --mode=production",
+    "build:plugin": ". build.sh"
   },
   "author": "",
   "license": "ISC",
