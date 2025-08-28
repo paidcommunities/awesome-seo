@@ -49,7 +49,9 @@ const config = {
         'react': 'React',
         'react-dom': 'ReactDOM',
         '@wordpress/components': 'wp.components',
-        'jquery': 'jQuery'
+        'jquery': 'jQuery',
+        '@paidcommunities-wp/components': 'paidcommunities.wp.components',
+        '@paidcommunities-wp/api': 'paidcommunities.wp.api'
     }
 };
 

@@ -18,7 +18,7 @@ class LicensePage {
 		wp_register_script(
 			'awesome-seo-admin-app',
 			$url . 'build/admin-app.js',
-			[ 'jquery', 'react', 'wp-components', 'paidcommunities-wp-api' ],
+			[ 'jquery', 'react', 'wp-components', 'paidcommunities-wp-components', 'paidcommunities-wp-api' ],
 			$this->config->getVersion(),
 			true
 		);

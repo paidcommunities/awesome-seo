@@ -4,7 +4,11 @@ import {LicenseActivation} from '@paidcommunities-wp/components';
 
 const App = () => {
     return (
-        <LicenseActivation config={awesomeSEOParams}/>
+        <LicenseActivation
+            config={awesomeSEOParams}
+            onActivate={() => window.location.reload()}
+            onDeactivate={() => alert('Deactivated')}
+        />
     )
 }
 
